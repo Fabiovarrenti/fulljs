@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ReactGA from 'react-ga';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -10,6 +11,10 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
+
+
+ReactGA.initialize('G-66H7HBY29N');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

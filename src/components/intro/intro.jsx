@@ -3,6 +3,7 @@ import React from 'react';
 class Intro extends React.Component {
     render() {
         return <>
+            <img src={'../../../public/fulljs-logo.jpg'}/>
             <h1>Frontend Development Academy</h1>
             <h2>Impara a sviluppare frontend con lezioni individuali</h2>
             <p>Diventa un master nello sviluppo frontend attraverso lezioni individuali con le quali potrai conoscere
