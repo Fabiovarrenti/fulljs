@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:wght@200&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', times, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f7df1e;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  display: flex;
+  padding: 30px;
+  height: 100vh;
+  flex-direction: column;
+}
+
+form {
+  background-color: #eee;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 10px;
+
+  & div {
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column
+  }
+
+  & input {
+    height: 35px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 10px;
+    font-family: 'Source Sans Pro', times, serif;
+  }
+}
+
+
+
+button {
+  background-color: #000;
+  color: #f7df1e;
+  padding: 10px;
+  font-family: 'Source Sans Pro', times, serif;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  height: 35px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
